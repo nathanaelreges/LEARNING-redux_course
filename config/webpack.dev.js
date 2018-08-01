@@ -9,8 +9,7 @@ module.exports = merge(common, {
    devServer: {
       contentBase: path.join(__dirname, '/.././dist'),
       hot: true,
-      compress: true,
-      open: true    
+      compress: true
    },
    plugins: [
       new webpack.HotModuleReplacementPlugin()
