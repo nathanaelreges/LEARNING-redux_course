@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Field from './Field'
+import Field from './Field2'
 import FieldReducer from './FieldReducer'
 
 import { createStore, combineReducers } from 'redux'
