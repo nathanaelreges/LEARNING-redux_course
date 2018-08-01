@@ -9,6 +9,7 @@ const reducers = combineReducers({
    field: () => ({value: 'Opa'}) 
 })
 
+
 ReactDOM.render(
    <Provider store={createStore(reducers)} >
       <Field initialValue="Texto" />
